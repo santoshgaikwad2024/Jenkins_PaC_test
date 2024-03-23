@@ -23,7 +23,16 @@ pipeline {
                 echo " I am Test"
             }
         }
-        
+
+
+
+	stage('QA') {
+            steps {
+                echo " I am QA"
+            }
+        }
+
+
         stage('Deploy') {
             steps {
                 echo " I am Deploy"
